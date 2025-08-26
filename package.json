@@ -1,0 +1,30 @@
+{
+  "name": "github-user-activity",
+  "version": "1.0.0",
+  "description": "Url: https://roadmap.sh/projects/github-user-activity",
+  "main": "index.js",
+  "scripts": {
+    "start": "dotenvx run -- nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aigle-levant/github-user-activity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/aigle-levant/github-user-activity/issues"
+  },
+  "homepage": "https://github.com/aigle-levant/github-user-activity#readme",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.49.0",
+    "@octokit/rest": "^22.0.0",
+    "chalk": "^5.6.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "ora": "^8.2.0"
+  }
+}
